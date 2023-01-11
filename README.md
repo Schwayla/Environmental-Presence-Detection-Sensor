@@ -3,7 +3,7 @@
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
   
-# Bill of Materials (BOM)
+# Bill of Materials
   - D1 Mini 8266, Type-C (Aliexpress)
   - USB-C to USB-C Cable (Aliexpress)
   - USB-C Charger (I use an ANKER PowerPort III buts that's overkill)
@@ -44,7 +44,11 @@
     
 # How-To Guide
 **Setup**
-  - ESPHome
+  1. Setup ESPHome Instance on Home Assistant: https://esphome.io/guides/getting_started_hassio.html (Just grab it from Add-Ons)
+  2. Load initial software into ESP8266 from ESPHome.
+    - https://youtu.be/Viqvx7hMMJs
+    - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
+  3. Cut and strip wires (
   
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
