@@ -24,5 +24,5 @@
   - (OPT) Breadboard (To test everything first)
   
 # Not Included in this project...
-  - The Skills to do the things in this tutorial. YouTube is my best friend when it comes to learning how to do something and it can do a much better job of teaching you the skills needed to make this than I can.
+  - The Skills to do the things in this project. YouTube is my best friend when it comes to learning how to do something and it can do a much better job of teaching you the skills needed to make this than I can.
   - I had to look up how to make a README on here so...
