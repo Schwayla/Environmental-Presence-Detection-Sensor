@@ -16,6 +16,9 @@
   
 # Tools Needed
   - Soldering Iron (I like the TS100)
+    - Solder
+    - Iron Cleaner
+    - Brush-on or Liquid Flux
   - Hot Glue Gun (I use a Gorilla Glue Hi/Low)
   - Wire strippers
   - Flush-Cut Wire Cutters (Aliexpress or Knipex)
@@ -26,3 +29,7 @@
 # Not Included in this project...
   - The Skills to do the things in this project. YouTube is my best friend when it comes to learning how to do something and it can do a much better job of teaching you the skills needed to make this than I can.
   - I had to look up how to make a README on here so...
+
+# How-To Guide
+  # Test
+# References, Guides, & Resources
