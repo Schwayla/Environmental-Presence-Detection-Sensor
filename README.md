@@ -48,7 +48,8 @@
   2. Load initial software into ESP8266 from ESPHome.
     - https://youtu.be/Viqvx7hMMJs
     - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
-  3. Cut and strip wires (
+  3. Cut and strip wires (Documents/Diagrams/ElectroCookie_Med_Pinout.png)
+  
   
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
