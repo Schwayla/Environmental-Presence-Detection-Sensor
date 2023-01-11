@@ -48,4 +48,5 @@
   
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
+ - hjmcnew's documentation on mmWave sensors in ESPHome: https://github.com/hjmcnew/esphome-hs2xx3a-custom-component/tree/release
  - Everything Smart Home's Video: https://youtu.be/Viqvx7hMMJs
