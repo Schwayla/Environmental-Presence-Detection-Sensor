@@ -1,0 +1,133 @@
+# PASTE THIS UNDER YOUR SETUP CODE ON THE D1-MINI 8266.
+
+web_server:
+  port: 80
+  version: 2
+  include_internal: true
+
+http_request:
+  useragent: esphome/$device_name
+  timeout: 2s
+
+switch:
+  - platform: safe_mode
+    internal: true
+    name: use_safe_mode
+
+binary_sensor:
+#mmWave Sensor
+# The DFRobot mmWave Radar Sensor uses IO2 to communicate to the 8266 board Presence (1) No Presence (0).
+# UART is not used for detection but for distance and latency calibration.
+- platform: gpio
+  pin:
+    number: GPIO15
+  name: mmWave_sensor
+  device_class: occupancy  
+
+#PIR Sensor  
+- platform: gpio
+  pin:
+    number: GPIO16
+    mode: input_pulldown
+  name: "PIR Sensor"
+  device_class: motion 
+
+# This established the UART communication bus and the TX (GPIO12) and RX (GPIO13) pins.
+uart:
+  id: uart_bus
+  tx_pin: GPIO12
+  rx_pin: GPIO13
+  baud_rate: 115200
+  debug:
+    direction: BOTH
+    dummy_receiver: true
+    after:
+      delimiter: "\n"
+    sequence:
+      - lambda: UARTDebug::log_string(direction, bytes);
+
+# This establishes the distance calibration for the mmWave sensor.
+number:
+  - platform: template
+    name: distance
+    id: distance
+    min_value: 0
+    max_value: 1350
+    initial_value: 315
+    optimistic: true
+    step: 15
+    restore_value: true
+    unit_of_measurement: cm
+    set_action:
+      - uart.write: "sensorStop"
+      - delay: 1s
+      - uart.write: !lambda
+                      int cm = (int)ceil(x / 15.0);
+                      std::string cms = "detRangeCfg -1 0 " + to_string(cm);
+                      return std::vector<unsigned char>(cms.begin(), cms.end());
+      - delay: 1s
+      - uart.write: "saveCfg 0x45670123 0xCDEF89AB 0x956128C6 0xDF54AC89"
+      - delay: 1s
+      - uart.write: "sensorStart"
+
+# This establishes the Latency calibration for the mmWave sensor.     
+  - platform: template
+    name: latency
+    id: latency
+    min_value: 0
+    max_value: 65000
+    initial_value: 12500
+    optimistic: true
+    step: 25
+    restore_value: true
+    unit_of_measurement: ms
+    set_action:
+      - uart.write: "sensorStop"
+      - delay: 1s
+      - uart.write: !lambda
+                      int ms = (int)ceil(x / 25.0);
+                      std::string mss = "outputLatency -1 0 " + to_string(ms);
+                      return std::vector<unsigned char>(mss.begin(), mss.end());
+      - delay: 1s
+      - uart.write: "saveCfg 0x45670123 0xCDEF89AB 0x956128C6 0xDF54AC89"
+      - delay: 1s
+      - uart.write: "sensorStart"   
+
+# This button restarts the mmWave sensor.
+button:
+  - platform: restart
+    name: Restart $device_name
+
+  - platform: template
+    name: "factory_reset_sensor"
+    id: "factory_reset_sensor"
+    on_press:
+      - uart.write: "sensorStop"
+      - delay: 1s
+      - uart.write: "factoryReset 0x45670123 0xCDEF89AB 0x956128C6 0xDF54AC89"
+      - delay: 3s
+      - uart.write: "sensorStart"          
+
+# This establishes the I2C communications bus and defines its SDA (GPIO4) and SCL (GPIO5) pins.
+i2c:
+  sda: GPIO4
+  scl: GPIO5
+  scan: true
+  id: bus_a
+ 
+sensor: 
+#Sensor BME280
+- platform: bme280
+  temperature:
+    name: "BME280 Temperature"
+    oversampling: 16x
+    id: bme280_temperature
+  pressure:
+    name: "BME280 Pressure"
+    id: bme280_pressure
+  humidity:
+    name: "BME280 Humidity"
+    id: bme280_humidity
+  i2c_id: bus_a  
+  address: 0x76
+  update_interval: 15s
