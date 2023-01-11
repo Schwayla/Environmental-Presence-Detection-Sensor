@@ -1,6 +1,7 @@
 # Introduction
   - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BMP280 for motion detection and environmental data for use on ESPHome. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
   - I am new to coding so this is probably not the best way to code this but it works.
+  - I also used PowerPoint to make the diagrams.
   
 # Bill of Materials
   - D1 Mini 8266, Type-C (Aliexpress)
