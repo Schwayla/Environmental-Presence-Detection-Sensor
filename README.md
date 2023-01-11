@@ -49,6 +49,7 @@
     - https://youtu.be/Viqvx7hMMJs
     - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
   3. Cut and strip wires (https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
+  4. Solder pins to components
   
   
 # References, Guides, & Resources
