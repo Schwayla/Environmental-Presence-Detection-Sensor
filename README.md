@@ -1,5 +1,5 @@
 # Introduction
-  - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BMP280 for motion detection and environmental data for use on **ESPHome**. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
+  - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BME280 for motion detection and environmental data for use on **ESPHome**. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
   
@@ -9,7 +9,7 @@
   - USB-C Charger (I use an ANKER PowerPort III buts that's overkill)
   - DFRobot mmWave Sensor (SEN0395) (I get from DFRobot Store)
   - Panasonic EKMC1603111 (Digi-Key: 255-3086-ND)
-  - BMP280 (Aliexpress / Amazon)
+  - BME280 (Aliexpress / Amazon)
   - Solid-Core 22AWG wire (Aliexpress)
   - 10K Ohm Resistor (Aliexpress / Amazon)
   - ElecrtoCookie Prototyping PCB Board (Amazon)
@@ -56,3 +56,10 @@
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
  - hjmcnew's documentation on mmWave sensors in ESPHome: https://github.com/hjmcnew/esphome-hs2xx3a-custom-component/tree/release
  - Everything Smart Home's Video: https://youtu.be/Viqvx7hMMJs
+ - crlogic Home Assistant Forum Post: https://community.home-assistant.io/t/mmwave-presence-detection-esphome-style/382778
+ - ESPHome's Main Site: https://esphome.io/
+   - ESP8266: https://esphome.io/components/esp8266.html
+   - UART: https://esphome.io/components/uart.html
+   - BME280: https://esphome.io/components/sensor/bme280.html
+   - PIR Sensor: https://esphome.io/cookbook/pir.html
+   - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
