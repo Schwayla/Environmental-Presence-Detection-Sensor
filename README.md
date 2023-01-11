@@ -1,5 +1,5 @@
 # Introduction
-  - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BMP280 for motion detection and environmental data for use on ESPHome. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
+  - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BMP280 for motion detection and environmental data for use on **ESPHome**. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
   
@@ -15,10 +15,12 @@
   - ElecrtoCookie Prototyping PCB Board (Amazon)
   
 # Tools Needed
+  - Safety Glasses
   - Soldering Iron (I like the TS100)
     - Solder
     - Iron Cleaner
     - Brush-on or Liquid Flux
+    - Smoke/Fume Filter
   - Hot Glue Gun (I use a Gorilla Glue Hi/Low)
   - Wire strippers
   - Flush-Cut Wire Cutters (Aliexpress or Knipex)
@@ -26,10 +28,24 @@
   - (OPT) Soldering mat or holder
   - (OPT) Breadboard (To test everything first)
   
+# Software/Programs
+  - Home Assistant: https://www.home-assistant.io/
+  - ESPHome: https://esphome.io/
+  
 # Not Included in this project...
   - The Skills to do the things in this project. YouTube is my best friend when it comes to learning how to do something and it can do a much better job of teaching you the skills needed to make this than I can.
   - I had to look up how to make a README on here so...
-
+  
+**Skills Needed**
+  - Soldering https://youtu.be/6rmErwU5E-k 
+  - Wire Stripping https://youtu.be/JVJsJ4scCBk
+  - Basic Understanding of Code (I barely know it) 
+  - Computer Skills 
+    
 # How-To Guide
-  # Test
+**Setup**
+  - ESPHome
+  
 # References, Guides, & Resources
+ - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
+ - Everything Smart Home's Video: https://youtu.be/Viqvx7hMMJs
