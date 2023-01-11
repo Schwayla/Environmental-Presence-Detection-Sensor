@@ -49,8 +49,21 @@
     - https://youtu.be/Viqvx7hMMJs
     - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
   3. Cut and strip wires (https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
-  4. Solder pins to components
-  
+  4. Solder pins to components.
+  5. solder wires in-place on ElectroCookie Board.
+      - Verify all wires are correctly soldered to the specified spot.
+      - Visually inspect all solder points and repair as needed.
+  6. Solder components to board.
+      - Visually inspect all solder points and repair as needed.
+  7. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
+      - Allow around 2 minutes for the board to boot and connect to wifi.
+  8. Edit the device in ESPHome and add the code from this project to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
+  9. Install the code Over The Air (OTA) and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
+  10. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
+
+
+**Adding Sensor to Automations** (I'm only including this because I was confused)
+  - When searching for a Device Trigger, search the name of the device ie. Environmental-Sensor (or whatever you named yours) THEN select the sensor as an entity from that device.
   
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
