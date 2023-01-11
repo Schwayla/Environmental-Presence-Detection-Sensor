@@ -43,7 +43,7 @@
   - Computer Skills 
     
 # How-To Guide
-**Setup**
+**Setup/Prep**
   1. Setup ESPHome Instance on Home Assistant: https://esphome.io/guides/getting_started_hassio.html (Just grab it from Add-Ons)
   2. Load initial software into ESP8266 from ESPHome.
     - https://youtu.be/Viqvx7hMMJs
