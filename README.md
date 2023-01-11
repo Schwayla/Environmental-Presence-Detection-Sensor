@@ -3,7 +3,7 @@
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
   
-# Bill of Materials
+# Bill of Materials (BOM)
   - D1 Mini 8266, Type-C (Aliexpress)
   - USB-C to USB-C Cable (Aliexpress)
   - USB-C Charger (I use an ANKER PowerPort III buts that's overkill)
