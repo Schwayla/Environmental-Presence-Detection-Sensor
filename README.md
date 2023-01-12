@@ -66,7 +66,9 @@
 
 **Adding Sensor to Automations** (I'm only including this because I was confused)
   - When searching for a Device Trigger, search the name of the device ie. Environmental-Sensor (or whatever you named yours) THEN select the sensor as an entity from that device.
-  
+
+<img width="750" alt="HA_Sensor_Add_Trigger" src="https://user-images.githubusercontent.com/59221079/212088207-bb94546a-d7cc-4de2-b20b-c7d3afb68a19.png">
+
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
  - hjmcnew's documentation on mmWave sensors in ESPHome: https://github.com/hjmcnew/esphome-hs2xx3a-custom-component/tree/release
@@ -78,3 +80,4 @@
    - BME280: https://esphome.io/components/sensor/bme280.html
    - PIR Sensor: https://esphome.io/cookbook/pir.html
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
+
