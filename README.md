@@ -2,6 +2,8 @@
   - This is a sensor that uses the DFRobot mmWave Sensor, Panasonic PIR Sensor, and BME280 for motion detection and environmental data for use on **ESPHome**. As you may have guessed this was a project inspired by Everything Smart Home's video and subsequent sensor as well as his inspiration igiannakas who made a similar sensor.
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
+
+![IMG_7314](https://user-images.githubusercontent.com/59221079/212090045-82cee1fa-611c-445f-a656-584071f84cd9.jpg)
   
 # Bill of Materials
   - D1 Mini 8266, Type-C (Aliexpress)
@@ -80,4 +82,5 @@
    - BME280: https://esphome.io/components/sensor/bme280.html
    - PIR Sensor: https://esphome.io/cookbook/pir.html
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
+
 
