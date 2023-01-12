@@ -64,7 +64,7 @@
       - Visually inspect all solder points and repair as needed.
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
       - Allow around 2 minutes for the board to boot and connect to wifi.
-  5. Edit the device in ESPHome and add the code from this project to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
+  5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
   6. Install the code Over The Air (OTA) and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
   7. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
 
