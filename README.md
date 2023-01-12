@@ -12,7 +12,7 @@
   - DFRobot mmWave Sensor (SEN0395) (I get from DFRobot Store)
   - Panasonic EKMC1603111 (Digi-Key: 255-3086-ND)
   - BME280 (Aliexpress / Amazon)
-  - Solid-Core 22AWG wire (Aliexpress)
+  - Solid-Core 22AWG wire - 63.5cm / 25in (Aliexpress)
   - 10K Ohm Resistor (Aliexpress / Amazon)
   - ElecrtoCookie Prototyping PCB Board (Amazon)
   
