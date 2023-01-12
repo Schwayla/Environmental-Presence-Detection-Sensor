@@ -54,7 +54,7 @@
   
 **Fabrication**
   1. Solder pins to components.
-  2. solder wires in-place on ElectroCookie Board.
+  2. solder wires in-place on ElectroCookie Board. (https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)
       - Verify all wires are correctly soldered to the specified spot.
       - Visually inspect all solder points and repair as needed.
   3. Solder components to board.
