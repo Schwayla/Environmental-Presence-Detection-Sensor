@@ -16,6 +16,8 @@
   - 10K Ohm Resistor (Aliexpress / Amazon)
   - ElecrtoCookie Prototyping PCB Board (Amazon)
   
+  [BOM Reference](https://github.com/Schwayla/Environmental-Sensor/blob/280037779f692ed72e2192dc8d59334414fc8657/Documents/Materials-Tools/Bill%20of%20Materials)
+  
 # Tools Needed
   - Safety Glasses
   - Soldering Iron (I like the TS100)
