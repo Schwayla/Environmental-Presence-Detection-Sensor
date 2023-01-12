@@ -46,11 +46,11 @@
     
 # How-To Guide
 **Setup/Prep**
-  1. Setup ESPHome Instance on Home Assistant: https://esphome.io/guides/getting_started_hassio.html (Just grab it from Add-Ons)
+  1. [Setup ESPHome Instance on Home Assistant](https://esphome.io/guides/getting_started_hassio.html) (Just grab it from Add-Ons)
   2. Load initial software into ESP8266 from ESPHome.
     - https://youtu.be/Viqvx7hMMJs
     - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
-  3. Cut and strip wires (https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
+  3. Cut and strip wires [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
   
 **Fabrication**
   1. Solder pins to components.
