@@ -54,10 +54,10 @@
   
 **Fabrication**
   1. Solder pins to components.
-  2. solder wires in-place on ElectroCookie Board. (https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)
+  2. solder wires in-place on ElectroCookie Board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)
       - Verify all wires are correctly soldered to the specified spot.
       - Visually inspect all solder points and repair as needed.
-  3. Solder components to board.
+  3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)
       - Visually inspect all solder points and repair as needed.
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
       - Allow around 2 minutes for the board to boot and connect to wifi.
