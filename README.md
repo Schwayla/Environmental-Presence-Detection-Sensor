@@ -32,6 +32,8 @@
   - (OPT) Soldering mat or holder
   - (OPT) Breadboard (To test everything first)
   
+  [Tools Reference](https://github.com/Schwayla/Environmental-Sensor/blob/9cfe84de354dd05abc04a752588c11a8314ef70a/Documents/Materials-Tools/Mentioned%20Tools)
+  
 # Software/Programs
   - [Home Assistant](https://www.home-assistant.io/)
   - [ESPHome](https://esphome.io/)
