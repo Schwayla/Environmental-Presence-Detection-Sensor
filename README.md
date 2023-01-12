@@ -31,26 +31,25 @@
   - (OPT) Breadboard (To test everything first)
   
 # Software/Programs
-  - Home Assistant: https://www.home-assistant.io/
-  - ESPHome: https://esphome.io/
+  - [Home Assistant](https://www.home-assistant.io/)
+  - [ESPHome](https://esphome.io/)
   
 # Not Included in this project...
   - The Skills to do the things in this project. YouTube is my best friend when it comes to learning how to do something and it can do a much better job of teaching you the skills needed to make this than I can.
   - I had to look up how to make a README on here so...
   
 **Skills Needed**
-  - Soldering https://youtu.be/6rmErwU5E-k 
-  - Wire Stripping https://youtu.be/JVJsJ4scCBk
+  - [Soldering](https://youtu.be/6rmErwU5E-k)
+  - [Wire Stripping](https://youtu.be/JVJsJ4scCBk)
   - Basic Understanding of Code (I barely know it) 
   - Computer Skills 
     
 # How-To Guide
 **Setup/Prep**
   1. [Setup ESPHome Instance on Home Assistant](https://esphome.io/guides/getting_started_hassio.html) (Just grab it from Add-Ons)
-  2. Load initial software into ESP8266 from ESPHome.
-    - https://youtu.be/Viqvx7hMMJs
-    - MUST BE DONE BEFORE INSTALLING BOARD ONTO PROJECT!
-  3. Cut and strip wires [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
+  2. [Load initial software into ESP8266 from ESPHome](https://youtu.be/Viqvx7hMMJs)
+    - MUST BE DONE BEFORE INSTALLING THE 8266 BOARD ONTO THE PCB/BREADBOARD!
+  3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/dc7ba66b0b5ca8b80ea31320445ca70eeca1965f/Documents/Diagrams/ElectroCookie_Med_Pinout.png)
   
 **Fabrication**
   1. Solder pins to components.
