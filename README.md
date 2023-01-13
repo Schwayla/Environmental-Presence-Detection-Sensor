@@ -82,6 +82,9 @@
     - Allow around 2 minutes for the board to boot and connect to wifi.
   5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
   6. Install the code **Wirelessly** and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
+  
+  ![esphome-wireless-install](https://user-images.githubusercontent.com/59221079/212228829-1e62ddeb-5c42-444f-ae28-270e3a187d85.png)
+  
   7. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
 
 ### Adding Sensor to Automations (I'm only including this because I was confused)
@@ -102,5 +105,6 @@
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
    
    
+
 
 
