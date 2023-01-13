@@ -79,7 +79,10 @@
   ! -- ! -- ! - **Make sure you have loaded the initial software onto the ESP8266 from step 2 of setup / prep** - ! -- ! -- !
   
   3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
+
+  ![sensor-full](https://user-images.githubusercontent.com/59221079/212255026-c2aadc51-082f-4b45-bd51-bf48f34f5b98.jpg)
     - Visually inspect all solder points and repair as needed.
+    
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
     - Allow around 2 minutes for the board to boot and connect to wifi.
   5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2 of setup / prep. [Code Example](https://github.com/Schwayla/Environmental-Sensor/blob/d74956dccb4689bdeb070d1cdd81721c73e84971/Documents/Photos/Code%20Example.png)
@@ -109,7 +112,3 @@
    - PIR Sensor: https://esphome.io/cookbook/pir.html
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
    
-   
-
-
-
