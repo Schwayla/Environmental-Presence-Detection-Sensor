@@ -53,7 +53,7 @@
   1. [Setup ESPHome Instance on Home Assistant](https://esphome.io/guides/getting_started_hassio.html) (Just grab it from Add-Ons)
   2. [Load initial software into ESP8266 from ESPHome](https://youtu.be/Viqvx7hMMJs)
     - MUST BE DONE BEFORE INSTALLING THE 8266 BOARD ONTO THE PCB/BREADBOARD!
-  3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/1f8e7593d6e171ae759ecf0c736d8ca7518d715f/Documents/Diagrams/ElectroCookie_MD_WireList.png)
+  3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/1f8e7593d6e171ae759ecf0c736d8ca7518d715f/Documents/Diagrams/ElectroCookie_MD_WireList.png) | [Pre-Cut Wires](https://github.com/Schwayla/Environmental-Sensor/blob/2cb97e723ad9acc277df67176590945e9eb55532/Documents/Diagrams/WireList_pre-cut_wires.PNG)
 
   <img width="308" alt="ElectroCookie_MD_WireList" src="https://user-images.githubusercontent.com/59221079/212226799-7544f6d9-7b95-49da-a0d4-6a07d3952d85.png">
   
