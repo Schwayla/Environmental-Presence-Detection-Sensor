@@ -49,27 +49,38 @@
   - Computer Skills 
     
 # How-To Guide
-**Setup/Prep**
+## Setup/Prep
   1. [Setup ESPHome Instance on Home Assistant](https://esphome.io/guides/getting_started_hassio.html) (Just grab it from Add-Ons)
   2. [Load initial software into ESP8266 from ESPHome](https://youtu.be/Viqvx7hMMJs)
     - MUST BE DONE BEFORE INSTALLING THE 8266 BOARD ONTO THE PCB/BREADBOARD!
   3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/60066c6729b6f7f5b5605b96a4c716051a806cc8/Documents/Diagrams/ElectroCookie_MD_WireList.png)
   
-**Fabrication**
+  ![Scannable Document on Jan 12, 2023 at 7_01_14 PM](https://user-images.githubusercontent.com/59221079/212225351-9a572a17-20f8-40a8-ab54-bec24fd08df6.PNG)
+  
+## Fabrication
   1. Solder pins to components.
+  
+  ![IMG_7322](https://user-images.githubusercontent.com/59221079/212224511-2bbd6608-4331-41dc-ba26-4d4862dabbb2.jpg)
+
+  I like to stick the pins into a breadboard to hold them in place while soldering.
+
+  ![IMG_7323](https://user-images.githubusercontent.com/59221079/212224208-e66168a7-9599-49a2-93e1-31439c454720.jpg)
+  
   2. solder wires in-place on ElectroCookie Board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
       - Verify all wires are correctly soldered to the specified spot.
       - Visually inspect all solder points and repair as needed.
+      
+  ![IMG_7319](https://user-images.githubusercontent.com/59221079/212224895-159c1262-37bc-4098-9e41-74957c07bb0c.jpg)
+  
   3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
       - Visually inspect all solder points and repair as needed.
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
       - Allow around 2 minutes for the board to boot and connect to wifi.
   5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
-  6. Install the code Over The Air (OTA) and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
+  6. Install the code **Wirelessly** and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
   7. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
 
-
-**Adding Sensor to Automations** (I'm only including this because I was confused)
+### Adding Sensor to Automations (I'm only including this because I was confused)
   - When searching for a Device Trigger, search the name of the device ie. Environmental-Sensor (or whatever you named yours) THEN select the sensor as an entity from that device.
 
 <img width="750" alt="HA_Sensor_Add_Trigger" src="https://user-images.githubusercontent.com/59221079/212088207-bb94546a-d7cc-4de2-b20b-c7d3afb68a19.png">
@@ -85,5 +96,5 @@
    - BME280: https://esphome.io/components/sensor/bme280.html
    - PIR Sensor: https://esphome.io/cookbook/pir.html
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
-
-
+   
+   
