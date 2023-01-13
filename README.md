@@ -53,7 +53,9 @@
   1. [Setup ESPHome Instance on Home Assistant](https://esphome.io/guides/getting_started_hassio.html) (Just grab it from Add-Ons)
   2. [Load initial software into ESP8266 from ESPHome](https://youtu.be/Viqvx7hMMJs)
     - MUST BE DONE BEFORE INSTALLING THE 8266 BOARD ONTO THE PCB/BREADBOARD!
-  3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/60066c6729b6f7f5b5605b96a4c716051a806cc8/Documents/Diagrams/ElectroCookie_MD_WireList.png)
+  3. Cut and strip wires
+
+  <img width="308" alt="ElectroCookie_MD_WireList" src="https://user-images.githubusercontent.com/59221079/212226799-7544f6d9-7b95-49da-a0d4-6a07d3952d85.png">
   
 ## Fabrication
   1. Solder pins to components.
@@ -96,3 +98,4 @@
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
    
    
+
