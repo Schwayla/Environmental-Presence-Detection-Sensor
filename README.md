@@ -55,8 +55,6 @@
     - MUST BE DONE BEFORE INSTALLING THE 8266 BOARD ONTO THE PCB/BREADBOARD!
   3. Cut and strip wires - [Wire List](https://github.com/Schwayla/Environmental-Sensor/blob/60066c6729b6f7f5b5605b96a4c716051a806cc8/Documents/Diagrams/ElectroCookie_MD_WireList.png)
   
-  ![Scannable Document on Jan 12, 2023 at 7_01_14 PM](https://user-images.githubusercontent.com/59221079/212225351-9a572a17-20f8-40a8-ab54-bec24fd08df6.PNG)
-  
 ## Fabrication
   1. Solder pins to components.
   
