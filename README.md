@@ -87,7 +87,7 @@
   
    - This will take a few minutes...
   
-  7. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
+  7. Home Assistant will automatically recognize the device. You can now configure it and add it to automations and what not.
 
 ### Adding Sensor to Automations (I'm only including this because I was confused)
   - When searching for a Device Trigger, search the name of the device ie. Environmental-Sensor (or whatever you named yours) THEN select the sensor as an entity from that device.
