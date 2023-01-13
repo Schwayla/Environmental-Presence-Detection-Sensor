@@ -112,4 +112,4 @@
    - PIR Sensor: https://esphome.io/cookbook/pir.html
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
    
-### Look at you! Makin some cool stuff...You're AWESOME!! 
+### Look at you! Makin' some cool stuff...You're AWESOME!! 
