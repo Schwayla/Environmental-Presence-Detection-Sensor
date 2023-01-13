@@ -76,7 +76,7 @@
       
   ![IMG_7319](https://user-images.githubusercontent.com/59221079/212224895-159c1262-37bc-4098-9e41-74957c07bb0c.jpg)
   
-  **Make sure you have loaded the initial software onto the ESP8266 from step 2 of setup / prep**
+  ! -- ! -- ! - **Make sure you have loaded the initial software onto the ESP8266 from step 2 of setup / prep** - ! -- ! -- !
   
   3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
     - Visually inspect all solder points and repair as needed.
