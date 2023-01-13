@@ -62,20 +62,24 @@
   
   ![IMG_7322](https://user-images.githubusercontent.com/59221079/212224511-2bbd6608-4331-41dc-ba26-4d4862dabbb2.jpg)
 
-  I like to stick the pins into a breadboard to hold them in place while soldering.
+   - I like to stick the pins into a breadboard to hold them in place while soldering.
 
   ![IMG_7323](https://user-images.githubusercontent.com/59221079/212224208-e66168a7-9599-49a2-93e1-31439c454720.jpg)
   
+   - After soldering the pins to the components, slide the pin retainer strips 3mm down away from the component boards. This will help in the installation of the components in the future and allow for clearance over the wires on the board.
+  
+  ![IMG_7325](https://user-images.githubusercontent.com/59221079/212227666-52b8147e-9b34-4130-9e0e-ba3a8efbf130.jpg)
+  
   2. solder wires in-place on ElectroCookie Board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
-      - Verify all wires are correctly soldered to the specified spot.
-      - Visually inspect all solder points and repair as needed.
+    - Verify all wires are correctly soldered to the specified spot.
+    - Visually inspect all solder points and repair as needed.
       
   ![IMG_7319](https://user-images.githubusercontent.com/59221079/212224895-159c1262-37bc-4098-9e41-74957c07bb0c.jpg)
   
   3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
-      - Visually inspect all solder points and repair as needed.
+    - Visually inspect all solder points and repair as needed.
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
-      - Allow around 2 minutes for the board to boot and connect to wifi.
+    - Allow around 2 minutes for the board to boot and connect to wifi.
   5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
   6. Install the code **Wirelessly** and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
   7. Home Assistant will automatically recognize the device. You can njow configure it and add it to automations and what not.
@@ -98,4 +102,5 @@
    - mmWave Sensor: It is programmed via UART, but on this current build it is treated as a Binary Sensor. No ESPHome Docs yet
    
    
+
 
