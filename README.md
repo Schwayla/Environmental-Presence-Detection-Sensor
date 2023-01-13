@@ -80,7 +80,7 @@
     - Visually inspect all solder points and repair as needed.
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
     - Allow around 2 minutes for the board to boot and connect to wifi.
-  5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2.
+  5. Edit the device in ESPHome and [add the code from this project](https://github.com/Schwayla/Environmental-Sensor/blob/90b6b86ba92d5fca961ce72326073a1cad06f3d1/env-sensor-code.txt) to your device UNDER the existing code that was loaded to the ESP8266 in step 2 of setup / prep.
   6. Install the code **Wirelessly** and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
   
   ![esphome-wireless-install](https://user-images.githubusercontent.com/59221079/212228829-1e62ddeb-5c42-444f-ae28-270e3a187d85.png)
