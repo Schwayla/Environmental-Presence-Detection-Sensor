@@ -100,6 +100,23 @@
 
 <img width="750" alt="HA_Sensor_Add_Trigger" src="https://user-images.githubusercontent.com/59221079/212088207-bb94546a-d7cc-4de2-b20b-c7d3afb68a19.png">
 
+### Using a BMP280 instead of BME280
+
+Replace the BMP280 code with the following under #sensor
+
+    #Sensor BMP280
+    - platform: bmp280
+     temperature:
+        name: "BMP280 Temperature"
+       oversampling: 16x
+       id: bmp280_temperature
+     pressure:
+       name: "BMP280 Pressure"
+       id: bmp280_pressure
+     i2c_id: bus_a  
+     address: 0x76
+      update_interval: 15s
+
 # References, Guides, & Resources
  - igiannakas's guide: https://github.com/igiannakas/mmwave-d1mini
  - hjmcnew's documentation on mmWave sensors in ESPHome: https://github.com/hjmcnew/esphome-hs2xx3a-custom-component/tree/release
