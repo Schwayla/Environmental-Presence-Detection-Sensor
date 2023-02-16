@@ -102,7 +102,7 @@
 
 ### Using a BMP280 instead of BME280
 
-Replace the BMP280 code with the following under #sensor
+Replace the BME280 code with the following under #sensor
 
     #Sensor BMP280
     - platform: bmp280
