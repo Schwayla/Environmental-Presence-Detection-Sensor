@@ -3,7 +3,7 @@
   - I am new to coding so this is probably not the best way to code this but it works.
   - I also used PowerPoint to make the diagrams.
 
-![IMG_7314](https://user-images.githubusercontent.com/59221079/212090045-82cee1fa-611c-445f-a656-584071f84cd9.jpg)
+![sensor_full](https://user-images.githubusercontent.com/59221079/219320679-5cbef026-ba1e-4307-8848-4ea69b825b88.jpg)
   
 # Bill of Materials
   - D1 Mini 8266, Type-C (Aliexpress)
@@ -80,7 +80,7 @@
   
   3. Solder components to board. [Reference Diagram](https://github.com/Schwayla/Environmental-Sensor/blob/6eeecd7a87b013b7dbf060ae7f8748a2fa184cad/Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf) **(Path: Documents/Diagrams/esp8266_env_sensor_pcb_va.pdf)**
 
-  ![sensor-full](https://user-images.githubusercontent.com/59221079/212255026-c2aadc51-082f-4b45-bd51-bf48f34f5b98.jpg)
+  ![sensor_full](https://user-images.githubusercontent.com/59221079/219320951-9347e815-c86f-4995-9db6-05debdb00869.jpg)
     - Visually inspect all solder points and repair as needed.
     
   4. Connect board to power (Connect the ESP8266 to the power brick via USB-C cable).
