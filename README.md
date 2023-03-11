@@ -89,7 +89,8 @@
   
   6. Install the code **Wirelessly** and wait for the board to connect (You can watch the progress of the load and the connection via the Logs)
   
-  ![esphome-wireless-install](https://user-images.githubusercontent.com/59221079/212228829-1e62ddeb-5c42-444f-ae28-270e3a187d85.png)
+  ![code_install_wireless](https://user-images.githubusercontent.com/59221079/224516441-827d0d64-07b4-4c5d-8673-9cd4b6ec4fd6.png)
+
   
    - This will take a few minutes...
   
