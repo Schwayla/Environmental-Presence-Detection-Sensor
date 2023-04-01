@@ -1,3 +1,4 @@
 # Introduction
 # Bill Of Materials
-# References & Guides
+# Tools Needed
+# Resources, References, & Guides
